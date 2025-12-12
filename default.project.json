@@ -1,0 +1,27 @@
+{
+  "$schema": "https://raw.githubusercontent.com/rojo-rbx/rojo/master/default.project.json",
+  "name": "zo-style-combat",
+  "servePort": 34872,
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$path": "src/ReplicatedStorage",
+      "Modules": {"$path": "src/ReplicatedStorage/Modules"},
+      "Remotes": {"$path": "src/ReplicatedStorage/Remotes"},
+      "KillEffects": {
+        "$className": "Folder"
+      },
+      "Weapons": {
+        "$className": "Folder"
+      },
+      "Animations": {
+        "$className": "Folder"
+      }
+    },
+    "ServerScriptService": {"$path": "src/ServerScriptService"},
+    "StarterPlayer": {
+      "StarterPlayerScripts": {"$path": "src/StarterPlayer/StarterPlayerScripts"}
+    },
+    "StarterGui": {"$path": "src/StarterGui"}
+  }
+}
